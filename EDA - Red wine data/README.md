@@ -1,15 +1,15 @@
-EDA With Red Wine Data
+## EDA With Red Wine Data
 
-Data Set Information:
+### Data Set Information:
 
 The two datasets are related to red and white Portuguese "Vinho Verde" wine variants.  Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods.
 
 
-Attribute Information:
+### Attribute Information:
 
-Input variables (based on physicochemical tests):
+### Input variables (based on physicochemical tests):
 - 1 - fixed acidity
 - 2 - volatile acidity
 - 3 - citric acid
@@ -22,5 +22,5 @@ Input variables (based on physicochemical tests):
 - 10 - sulphates
 - 11 - alcohol
 
-Output variable (based on sensory data):
+### Output variable (based on sensory data):
 - 12 - quality (score between 0 and 10)
